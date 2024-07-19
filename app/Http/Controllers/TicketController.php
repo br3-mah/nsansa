@@ -25,17 +25,19 @@ class TicketController extends Controller
             $ticket = Ticket::where('id', $ticket_id)->first();
             dd($data);
 
-            if ($ticket) {
-                $ticket->update([
-                    'phone' => $data->customerMobileWallet,
-                    'trans_amount' => $data->transactionAmount,
-                    'fee_amount' => $data->feeAmount,
-                    'trans_rate' => $data->feePercentage,
-                    'actual_amount' => $data->amount,
-                    'ref' => $data->merchantReference,
-                    'msg' => $data->message,
-                    'status' => $data->status
-                ]);
+            if ($data){
+                if ($ticket ) {
+                    $ticket->update([
+                        'phone' => $data->customerMobileWallet,
+                        'trans_amount' => $data->transactionAmount,
+                        'fee_amount' => $data->feeAmount,
+                        'trans_rate' => $data->feePercentage,
+                        'actual_amount' => $data->amount,
+                        'ref' => $data->merchantReference,
+                        'msg' => $data->message,
+                        'status' => $data->status
+                    ]);
+                }
             }
             // }
             // Send an email to the user
@@ -43,8 +45,8 @@ class TicketController extends Controller
 
             return redirect()->route('ticket-status',  $ticket->id);
         } catch (\Throwable $th) {
-            dd($th);
-            // return redirect()->back();
+            // dd($th);
+            return redirect()->back();
         }
     }
     public function index()
