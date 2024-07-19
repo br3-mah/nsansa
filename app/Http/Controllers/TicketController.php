@@ -23,8 +23,8 @@ class TicketController extends Controller
             $data = $this->verifyTransaction($uuid);
             // if($data->status == 'TXN_AUTH_SUCCESSFUL' || $data->status == 'TXN_SUCCESSFUL' || $data->status == 'TXN_PROCESSING'){
             $ticket = Ticket::where('id', $ticket_id)->first();
-            // dd($data);
-            
+            dd($data);
+
             if ($ticket) {
                 $ticket->update([
                     'phone' => $data->customerMobileWallet,
