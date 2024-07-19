@@ -1,0 +1,37 @@
+{
+	"authHost": "http://localhost/nsawellness",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "8f87ad995f7d4265",
+			"key": "e664986a0044034812488ce3b842d35c"
+		}
+	],
+	"database": "sqlite",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6001",
+	"protocol": "http",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "",
+	"sslKeyPath": "",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": false
+	},
+	"apiOriginAllow": {
+		"allowCors": true,
+		"allowOrigin": "http://localhost:80",
+		"allowMethods": "GET, POST, HEAD",
+		"allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
+	}
+}

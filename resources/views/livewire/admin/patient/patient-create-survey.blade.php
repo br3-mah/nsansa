@@ -1,0 +1,1 @@
+@include('livewire.__partials.create-patient-questions')
