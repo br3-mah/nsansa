@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'http://localhost/nsansaBeta/api/register?fname=Tristan&lname=Nyeleti&email=roadoc404@gmail.com&role=patient&type=patient&guest_id=iurixx-euieur938943jkje9r89es9e&password=peace2me',
+  CURLOPT_URL => 'publicBeta/api/register?fname=Tristan&lname=Nyeleti&email=roadoc404@gmail.com&role=patient&type=patient&guest_id=iurixx-euieur938943jkje9r89es9e&password=peace2me',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
