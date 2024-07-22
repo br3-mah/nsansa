@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<!-- Mirrored from localhost/nsansa/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jul 2024 10:19:35 GMT -->
+<!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
@@ -8,13 +10,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="public/xmlrpc.php" />
-	<title>Nsansawellness :: Events</title>
+	<title>nsansa</title>
 	<meta name='robots' content='max-image-preview:large' />
 	<link rel="alternate" type="application/rss+xml" title="nsansa &raquo; Feed" href="public/feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="nsansa &raquo; Comments Feed"
-		href="public/comments/feed/index.html" />
+		href="comments/feed/index.html" />
 	<script>
-		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "./wp-includes/js/wp-emoji-release.min.js?ver=6.6" } };
+		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "http:\/\/localhost\/nsansa\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6" } };
 		/*! This file is auto-generated */
 		!function (i, n) { var o, s, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === r[t] }) } function u(e, t, n) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b") }return !1 } function f(e, t, n) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"), a = r.getContext("2d", { willReadFrequently: !0 }), o = (a.textBaseline = "top", a.font = "600 32px Arial", {}); return e.forEach(function (e) { o[e] = t(a, e, n) }), o } function t(e) { var t = i.createElement("script"); t.src = e, t.defer = !0, i.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { i.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));", r = new Blob([e], { type: "text/javascript" }), a = new Worker(URL.createObjectURL(r), { name: "wpTestEmojiSupports" }); return void (a.onmessage = function (e) { c(n = e.data), a.terminate(), t(n) }) } catch (e) { } c(n = f(s, u, p)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
 	</script>
@@ -59,6 +61,24 @@
 			color: #fff;
 			text-decoration: none
 		}
+        .hidden {
+        display: none;
+        }
+
+        #loadingSpinner {
+        width: 20px;
+        height: 20px;
+        border: 4px solid rgba(255, 255, 255, 0.1);
+        border-left-color: #9aa6cc;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-left: 10px;
+        }
+
+        @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+        }
 	</style>
 	<style id='global-styles-inline-css'>
 		:root {
@@ -411,7 +431,7 @@
 	<link rel='stylesheet' id='elementor-frontend-css'
 		href='public/wp-content/plugins/elementor/assets/css/frontend-lite.min93d8.css?ver=3.23.1' media='all' />
 	<link rel='stylesheet' id='swiper-css'
-		href='public/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+		href='public/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' media='all' />
 	<link rel='stylesheet' id='elementor-post-2930-css'
 		href='public/wp-content/uploads/elementor/css/post-293044a8.css?ver=1721208661' media='all' />
 	<link rel='stylesheet' id='elementor-pro-css'
@@ -454,21 +474,21 @@
 	<script src="public/wp-includes/js/jquery/ui/button.minb37e.js?ver=1.13.3" id="jquery-ui-button-js"></script>
 	<script src="public/wp-includes/js/jquery/ui/dialog.minb37e.js?ver=1.13.3" id="jquery-ui-dialog-js"></script>
 	<script id="events-manager-js-extra">
-		var EM = { "ajaxurl": "http:\/wp-admin\/admin-ajax.php", "locationajaxurl": ".\/wp-admin\/admin-ajax.php?action=locations_search", "firstDay": "1", "locale": "en", "dateFormat": "yy-mm-dd", "ui_css": ".\/public\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui\/build.min.css", "show24hours": "", "is_ssl": "", "autocomplete_limit": "10", "calendar": { "breakpoints": { "small": 560, "medium": 908, "large": false } }, "phone": "", "datepicker": { "format": "Y-m-d" }, "search": { "breakpoints": { "small": 650, "medium": 850, "full": false } }, "url": ".\/public\/wp-content\/plugins\/events-manager", "bookingInProgress": "Please wait while the booking is being submitted.", "tickets_save": "Save Ticket", "bookingajaxurl": ".\/wp-admin\/admin-ajax.php", "bookings_export_save": "Export Bookings", "bookings_settings_save": "Save Settings", "booking_delete": "Are you sure you want to delete?", "booking_offset": "30", "bookings": { "submit_button": { "text": { "default": "Submit Booking", "free": "Submit Booking", "payment": "Submit Booking - %s", "processing": "Processing ..." } }, "update_listener": "" }, "bb_full": "Sold Out", "bb_book": "Book Now", "bb_booking": "Booking...", "bb_booked": "Booking Submitted", "bb_error": "Booking Error. Try again?", "bb_cancel": "Cancel", "bb_canceling": "Canceling...", "bb_cancelled": "Cancelled", "bb_cancel_error": "Cancellation Error. Try again?", "txt_search": "Search", "txt_searching": "Searching...", "txt_loading": "Loading...", "event_detach_warning": "Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.", "delete_recurrence_warning": "Are you sure you want to delete all recurrences of this event? All events will be moved to trash.", "disable_bookings_warning": "Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have", "booking_warning_cancel": "Are you sure you want to cancel your booking?" };
+		var EM = { "ajaxurl": "http:\/\/localhost\/nsansa\/wp-admin\/admin-ajax.php", "locationajaxurl": "http:\/\/localhost\/nsansa\/wp-admin\/admin-ajax.php?action=locations_search", "firstDay": "1", "locale": "en", "dateFormat": "yy-mm-dd", "ui_css": "http:\/\/localhost\/nsansa\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui\/build.min.css", "show24hours": "", "is_ssl": "", "autocomplete_limit": "10", "calendar": { "breakpoints": { "small": 560, "medium": 908, "large": false } }, "phone": "", "datepicker": { "format": "Y-m-d" }, "search": { "breakpoints": { "small": 650, "medium": 850, "full": false } }, "url": "http:\/\/localhost\/nsansa\/wp-content\/plugins\/events-manager", "bookingInProgress": "Please wait while the booking is being submitted.", "tickets_save": "Save Ticket", "bookingajaxurl": "http:\/\/localhost\/nsansa\/wp-admin\/admin-ajax.php", "bookings_export_save": "Export Bookings", "bookings_settings_save": "Save Settings", "booking_delete": "Are you sure you want to delete?", "booking_offset": "30", "bookings": { "submit_button": { "text": { "default": "Submit Booking", "free": "Submit Booking", "payment": "Submit Booking - %s", "processing": "Processing ..." } }, "update_listener": "" }, "bb_full": "Sold Out", "bb_book": "Book Now", "bb_booking": "Booking...", "bb_booked": "Booking Submitted", "bb_error": "Booking Error. Try again?", "bb_cancel": "Cancel", "bb_canceling": "Canceling...", "bb_cancelled": "Cancelled", "bb_cancel_error": "Cancellation Error. Try again?", "txt_search": "Search", "txt_searching": "Searching...", "txt_loading": "Loading...", "event_detach_warning": "Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.", "delete_recurrence_warning": "Are you sure you want to delete all recurrences of this event? All events will be moved to trash.", "disable_bookings_warning": "Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have", "booking_warning_cancel": "Are you sure you want to cancel your booking?" };
 	</script>
 	<script src="public/wp-content/plugins/events-manager/includes/js/events-managerb560.js?ver=6.4.10.2"
 		id="events-manager-js"></script>
 	<script src="public/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min4485.js?ver=2.7.0-wc.9.1.2"
 		id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
 	<script id="wc-add-to-cart-js-extra">
-		var wc_add_to_cart_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/public\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": ".\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+		var wc_add_to_cart_params = { "ajax_url": "\/nsansa\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/nsansa\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "http:\/\/localhost\/nsansa\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
 	</script>
 	<script src="public/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min457f.js?ver=9.1.2"
 		id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
 	<script src="public/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.mina682.js?ver=2.1.4-wc.9.1.2"
 		id="js-cookie-js" defer data-wp-strategy="defer"></script>
 	<script id="woocommerce-js-extra">
-		var woocommerce_params = { "ajax_url": "\/public\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/public\/?wc-ajax=%%endpoint%%" };
+		var woocommerce_params = { "ajax_url": "\/nsansa\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/nsansa\/?wc-ajax=%%endpoint%%" };
 	</script>
 	<script src="public/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min457f.js?ver=9.1.2" id="woocommerce-js"
 		defer data-wp-strategy="defer"></script>
@@ -482,9 +502,9 @@
 	<link rel="canonical" href="public/index.html" />
 	<link rel='shortlink' href='public/index.html' />
 	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-		href="public/wp-json/oembed/1.0/embed54e6.json?url=./" />
+		href="public/wp-json/oembed/1.0/embed54e6.json?url=http%3A%2F%2Flocalhost%2Fnsansa%2F" />
 	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-		href="public/wp-json/oembed/1.0/embed3008?url=./&amp;format=xml" />
+		href="public/wp-json/oembed/1.0/embed3008?url=http%3A%2F%2Flocalhost%2Fnsansa%2F&amp;format=xml" />
 	<style></style> <noscript>
 		<style>
 			.woocommerce-product-gallery {
@@ -524,7 +544,7 @@
 			font-style: normal;
 			font-weight: 300 900;
 			font-display: fallback;
-			src: url('public/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt%2cwght.woff2') format('woff2');
+			src: url('wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt%2cwght.woff2') format('woff2');
 			font-stretch: normal;
 		}
 
@@ -533,26 +553,8 @@
 			font-style: normal;
 			font-weight: 400;
 			font-display: fallback;
-			src: url('public/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
+			src: url('wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
 		}
-        .hidden {
-        display: none;
-        }
-
-        #loadingSpinner {
-        width: 20px;
-        height: 20px;
-        border: 4px solid rgba(255, 255, 255, 0.1);
-        border-left-color: #9aa6cc;
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-        margin-left: 10px;
-        }
-
-        @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-        }
 	</style>
 	<script>function setREVStartSize(e) {
 			//window.requestAnimationFrame(function() {
@@ -628,7 +630,7 @@
 									data-id="b73126d" data-element_type="widget" data-widget_type="button.default">
 									<div class="elementor-widget-container">
 										<div class="elementor-button-wrapper">
-											<a class="elementor-button elementor-size-sm" role="button">
+											<a href="{{ route('welcome') }}" class="elementor-button elementor-size-sm" role="button">
 												<span class="elementor-button-content-wrapper">
 													<span class="elementor-button-text">Go Back</span>
 												</span>
@@ -689,12 +691,12 @@
 										<div class="elementor-widget-container">
 											<div class="hfe-site-logo">
 												<a data-elementor-open-lightbox="" class='elementor-clickable'
-													href="{{ route('welcome') }}">
+													href="{{ route('home') }}">
 													<div class="hfe-site-logo-set">
 														<div class="hfe-site-logo-container">
 															<img decoding="async"
 																class="hfe-site-logo-img elementor-animation-"
-																src="public/wp-content/uploads/2024/07/tfr.png"
+																src="public/wp-content/uploads/2024/07/TRF-R_RGB-300x113.png"
 																alt="TRF-R_RGB" />
 														</div>
 													</div>
@@ -709,7 +711,7 @@
 					<section
 						class="elementor-section elementor-top-section elementor-element elementor-element-5ebaaec elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default"
 						data-id="5ebaaec" data-element_type="section"
-						data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:2951,&quot;url&quot;:&quot;.\/public\/wp-content\/uploads\/2024\/07\/1-4.png&quot;},{&quot;id&quot;:2950,&quot;url&quot;:&quot;.\/public\/wp-content\/uploads\/2024\/07\/2-4.png&quot;}],&quot;background_slideshow_ken_burns&quot;:&quot;yes&quot;,&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500,&quot;background_slideshow_ken_burns_zoom_direction&quot;:&quot;in&quot;}">
+						data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:2951,&quot;url&quot;:&quot;http:\/\/localhost\/nsansa\/wp-content\/uploads\/2024\/07\/1-4.png&quot;},{&quot;id&quot;:2950,&quot;url&quot;:&quot;http:\/\/localhost\/nsansa\/wp-content\/uploads\/2024\/07\/2-4.png&quot;}],&quot;background_slideshow_ken_burns&quot;:&quot;yes&quot;,&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500,&quot;background_slideshow_ken_burns_zoom_direction&quot;:&quot;in&quot;}">
 						<div class="elementor-background-overlay"></div>
 						<div class="elementor-container elementor-column-gap-default">
 							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c4a163f"
@@ -884,7 +886,7 @@
 														data-widget_type="heading.default">
 														<div class="elementor-widget-container">
 															<h1 class="elementor-heading-title elementor-size-default">
-																T3C GARDENS, LILAYI RD, LILAYI​</h1>
+																3C GARDENS, LILAYI RD, LILAYI​</h1>
 														</div>
 													</div>
 												</div>
@@ -1621,9 +1623,9 @@
 									data-id="8161247" data-element_type="widget" data-widget_type="image.default">
 									<div class="elementor-widget-container">
 										<img loading="lazy" decoding="async" width="300" height="113"
-											src="public/wp-content/uploads/2024/07/tfr.png"
+											src="public/wp-content/uploads/2024/07/TRF-R_RGB-300x113.png"
 											class="attachment-medium size-medium wp-image-3021" alt=""
-											srcset="public/wp-content/uploads/2024/07/tfr.png 300w, public/wp-content/uploads/2024/07/tfr.png 1024w, public/wp-content/uploads/2024/07/tfr.png 768w, public/wp-content/uploads/2024/07/tfr.png 1536w, public/wp-content/uploads/2024/07/tfr.png 600w, public/wp-content/uploads/2024/07/tfr.png 1592w"
+											srcset="public/wp-content/uploads/2024/07/TRF-R_RGB-300x113.png 300w, public/wp-content/uploads/2024/07/TRF-R_RGB-1024x386.png 1024w, public/wp-content/uploads/2024/07/TRF-R_RGB-768x289.png 768w, public/wp-content/uploads/2024/07/TRF-R_RGB-1536x579.png 1536w, public/wp-content/uploads/2024/07/TRF-R_RGB-600x226.png 600w, public/wp-content/uploads/2024/07/TRF-R_RGB.png 1592w"
 											sizes="(max-width: 300px) 100vw, 300px" />
 									</div>
 								</div>
@@ -2232,134 +2234,136 @@
 													background-repeat: no-repeat
 												}
 											</style>
-											@php
-                                            $randomStr = Illuminate\Support\Str::random(5);
-                                            $transRef = Illuminate\Support\Str::random(7);
-                                            // UUID ID generator
-                                            $uuid = vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex(random_bytes(16)), 4));
-                                        @endphp
-                                        <form action="{{ route('pay-ticket') }}" method="POST" id="ticketform" class="elementor-form">
-                                            @csrf
-                                            <input type="hidden" name="post_id" value="7" />
-                                            <input type="hidden" name="form_id" value="7bccf4c" />
-                                            <input type="hidden" name="referer_title" value="" />
 
-                                            <input type="hidden" name="queried_id" value="7" />
 
-                                            <div class="elementor-form-fields-wrapper elementor-labels-">
-                                                <div
-                                                    class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
-                                                    <label for="form-field-name"
-                                                        class="elementor-field-label elementor-screen-only">
-                                                        First Name </label>
-                                                    <input size="1" type="text"  name="customerFirstName"
-                                                        id="form-field-name"
-                                                        class="elementor-field elementor-size-sm elementor-field-textual"
-                                                        placeholder=" Your Firstname">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
-                                                    <label for="form-field-name"
-                                                        class="elementor-field-label elementor-screen-only">
-                                                        Last Name </label>
-                                                    <input size="1" type="text"  name="customerLastName"
-                                                        id="form-field-name"
-                                                        class="elementor-field elementor-size-sm elementor-field-textual"
-                                                        placeholder=" Your Lastname">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
-                                                    <label for="form-field-email"
-                                                        class="elementor-field-label elementor-screen-only">
-                                                        Email </label>
-                                                    <input size="1" type="email" name="customerEmail"
-                                                        id="form-field-email"
-                                                        class="elementor-field elementor-size-sm elementor-field-textual"
-                                                        placeholder="Your Email" required="required"
-                                                        aria-required="true">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_b2655c3 elementor-col-50 elementor-field-required">
-                                                    <label for="form-field-field_b2655c3"
-                                                        class="elementor-field-label elementor-screen-only">
-                                                        Phone <small>(ex. 077XXXXXXX or 097XXXXXXX)</small></label>
-                                                    <input size="1" type="tel" name="wallet"
-                                                        id="form-field-field_b2655c3"
-                                                        class="elementor-field elementor-size-sm elementor-field-textual"
-                                                        placeholder="Your Number" required="required"
-                                                        aria-required="true" pattern="[0-9()#&amp;+*-=.]+"
-                                                        title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+                                            @php
+                                                $randomStr = Illuminate\Support\Str::random(5);
+                                                $transRef = Illuminate\Support\Str::random(7);
+                                                // UUID ID generator
+                                                $uuid = vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex(random_bytes(16)), 4));
+                                            @endphp
+											<form action="{{ route('pay-ticket') }}" method="POST" id="ticketform" class="elementor-form">
+                                                @csrf
+												<input type="hidden" name="post_id" value="7" />
+												<input type="hidden" name="form_id" value="7bccf4c" />
+												<input type="hidden" name="referer_title" value="" />
 
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-field_af587c4 elementor-col-50 elementor-field-required">
-                                                    <label for="form-field-field_af587c4"
-                                                        class="elementor-field-label elementor-screen-only">
-                                                        Number of 1- 20 </label>
-                                                    <input type="number" name="qty"
-                                                        id="form-field-field_af587c4"
-                                                        class="elementor-field elementor-size-sm elementor-field-textual"
-                                                        placeholder="Number of tickets 1- 20" required="required"
-                                                        aria-required="true" min="" max="">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-date elementor-field-group elementor-column elementor-field-group-field_9620889 elementor-col-50 elementor-field-required">
-                                                    <label for="form-field-field_9620889"
-                                                        class="elementor-field-label elementor-screen-only">
-                                                        Date </label>
+												<input type="hidden" name="queried_id" value="7" />
 
-                                                    <input type="date" name="for_event_on"
-                                                        id="form-field-field_9620889"
-                                                        class="elementor-field elementor-size-sm elementor-field-textual elementor-date-field"
-                                                        placeholder="23rd October, 2023"
-                                                        value="23rd August, 2024"
-                                                        aria-required="true" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_a852ecf elementor-col-50 elementor-field-required">
-                                                    <label for="form-field-field_a852ecf"
-                                                        class="elementor-field-label elementor-screen-only">
-                                                        Event </label>
-                                                    <input size="1" type="text" name="event"
-                                                        id="form-field-field_a852ecf"
-                                                        class="elementor-field elementor-size-sm elementor-field-textual"
-                                                        placeholder="Event"
-                                                        aria-required="true">
-                                                </div>
-                                                <div
-                                                    class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-                                                    <label for="form-field-message"
-                                                        class="elementor-field-label elementor-screen-only">
-                                                        Message </label>
-                                                    <textarea
-                                                        class="elementor-field-textual elementor-field elementor-size-sm"
-                                                        name="message" id="form-field-message" rows="4"
-                                                        placeholder="Your Message..."></textarea>
-                                                </div>
-                                                <input type="hidden" name="callback" value="{{ 'https://nsansawellness.com/ticket-callback/'.$uuid.'/' }}">
-                                                <input type="hidden" name="uuid" value="{{ $uuid }}">
-                                                <input type="hidden" name="amount" value="300">
-                                                <input type="hidden" name="billing_id" value="0">
-                                                <input type="hidden" name="currency" value="ZMW">
-                                                <input type="hidden" name="item" value="ticket">
-                                                <input type="hidden" name="merchantPublicKey" value="de7afd6176bb4eff99316dcf508e5be6">
-                                                <input type="hidden" name="transactionName" value="NSANSTR#"{{ $randomStr }}>
-                                                <input type="hidden" name="transactionReference" value="{{ $transRef }}">
-                                                <input type="hidden" name="chargeMe" value="true">
-                                                <div
-                                                    class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-33 e-form__buttons">
-                                                    <button id="submitTicketFormBtn" class="elementor-button elementor-size-sm"
-                                                        >
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Send</span>
-                                                        </span>
-                                                    </button>
-                                                </div>
+												<div class="elementor-form-fields-wrapper elementor-labels-">
+													<div
+														class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
+														<label for="form-field-name"
+															class="elementor-field-label elementor-screen-only">
+															First Name </label>
+														<input size="1" type="text"  name="customerFirstName"
+															id="form-field-name"
+															class="elementor-field elementor-size-sm elementor-field-textual"
+															placeholder=" Your Firstname">
+													</div>
+													<div
+														class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
+														<label for="form-field-name"
+															class="elementor-field-label elementor-screen-only">
+															Last Name </label>
+														<input size="1" type="text"  name="customerLastName"
+															id="form-field-name"
+															class="elementor-field elementor-size-sm elementor-field-textual"
+															placeholder=" Your Lastname">
+													</div>
+													<div
+														class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
+														<label for="form-field-email"
+															class="elementor-field-label elementor-screen-only">
+															Email </label>
+														<input size="1" type="email" name="customerEmail"
+															id="form-field-email"
+															class="elementor-field elementor-size-sm elementor-field-textual"
+															placeholder="Your Email" required="required"
+															aria-required="true">
+													</div>
+													<div
+														class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_b2655c3 elementor-col-50 elementor-field-required">
+														<label for="form-field-field_b2655c3"
+															class="elementor-field-label elementor-screen-only">
+															Phone <small>(ex. 077XXXXXXX or 097XXXXXXX)</small></label>
+														<input size="1" type="tel" name="wallet"
+															id="form-field-field_b2655c3"
+															class="elementor-field elementor-size-sm elementor-field-textual"
+															placeholder="Your Number" required="required"
+															aria-required="true" pattern="[0-9()#&amp;+*-=.]+"
+															title="Only numbers and phone characters (#, -, *, etc) are accepted.">
 
-                                                <div id="loadingSpinner" class="hidden"></div></div>
-                                            </div>
+													</div>
+													<div
+														class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-field_af587c4 elementor-col-50 elementor-field-required">
+														<label for="form-field-field_af587c4"
+															class="elementor-field-label elementor-screen-only">
+															Number of 1- 20 </label>
+														<input type="number" name="qty"
+															id="form-field-field_af587c4"
+															class="elementor-field elementor-size-sm elementor-field-textual"
+															placeholder="Number of tickets 1- 20" required="required"
+															aria-required="true" min="" max="">
+													</div>
+													<div
+														class="elementor-field-type-date elementor-field-group elementor-column elementor-field-group-field_9620889 elementor-col-50 elementor-field-required">
+														<label for="form-field-field_9620889"
+															class="elementor-field-label elementor-screen-only">
+															Date </label>
 
-                                        </form>
+														<input type="date" name="for_event_on"
+															id="form-field-field_9620889"
+															class="elementor-field elementor-size-sm elementor-field-textual elementor-date-field"
+															placeholder="23rd October, 2023"
+                                                            value="23rd August, 2024"
+															aria-required="true" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+													</div>
+													<div
+														class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_a852ecf elementor-col-50 elementor-field-required">
+														<label for="form-field-field_a852ecf"
+															class="elementor-field-label elementor-screen-only">
+															Event </label>
+														<input size="1" type="text" name="event"
+															id="form-field-field_a852ecf"
+															class="elementor-field elementor-size-sm elementor-field-textual"
+															placeholder="Event"
+															aria-required="true">
+													</div>
+													<div
+														class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+														<label for="form-field-message"
+															class="elementor-field-label elementor-screen-only">
+															Message </label>
+														<textarea
+															class="elementor-field-textual elementor-field elementor-size-sm"
+															name="message" id="form-field-message" rows="4"
+															placeholder="Your Message..."></textarea>
+													</div>
+                                                    <input type="hidden" name="callback" value="{{ 'https://nsansawellness.com/ticket-callback/'.$uuid.'/' }}">
+                                                    <input type="hidden" name="uuid" value="{{ $uuid }}">
+                                                    <input type="hidden" name="amount" value="300">
+                                                    <input type="hidden" name="billing_id" value="0">
+                                                    <input type="hidden" name="currency" value="ZMW">
+                                                    <input type="hidden" name="item" value="ticket">
+                                                    <input type="hidden" name="merchantPublicKey" value="de7afd6176bb4eff99316dcf508e5be6">
+                                                    <input type="hidden" name="transactionName" value="NSANSTR#"{{ $randomStr }}>
+                                                    <input type="hidden" name="transactionReference" value="{{ $transRef }}">
+                                                    <input type="hidden" name="chargeMe" value="true">
+													<div
+														class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-33 e-form__buttons">
+														<button id="submitTicketFormBtn" class="elementor-button elementor-size-sm"
+															>
+															<span class="elementor-button-content-wrapper">
+																<span class="elementor-button-text">Send</span>
+															</span>
+														</button>
+													</div>
+
+                                                    <div id="loadingSpinner" class="hidden"></div></div>
+												</div>
+
+											</form>
 										</div>
 									</div>
 								</div>
@@ -2370,11 +2374,11 @@
 									<div class="elementor-element elementor-element-68a98447 elementor-widget elementor-widget-image"
 										data-id="68a98447" data-element_type="widget" data-widget_type="image.default">
 										<div class="elementor-widget-container">
-											<img decoding="async" width="340" height="440"
-												src="public/wp-content/uploads/2024/07/tfr.png"
+											<img loading="lazy" decoding="async" width="340" height="440"
+												src="public/wp-content/uploads/2023/06/ib-9.jpg"
 												class="attachment-full size-full wp-image-1894" alt=""
-												srcset="public/wp-content/uploads/2024/07/tfr.png 340w, public/wp-content/uploads/2024/07/tfr.png 232w"
-												sizes="(max-width: 240px) 100vw, 240px" />
+												srcset="public/wp-content/uploads/2023/06/ib-9.jpg 340w, public/wp-content/uploads/2023/06/ib-9-232x300.jpg 232w"
+												sizes="(max-width: 340px) 100vw, 340px" />
 										</div>
 									</div>
 								</div>
@@ -2412,7 +2416,7 @@
 			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
 			window.RS_MODULES.type = 'compiled';
 		</script>
-		
+
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script type='text/javascript'>
             $(document).ready(function() {
@@ -2458,6 +2462,7 @@
                     $("html, body").animate({ scrollTop: $(document).height() }, 1000);
                 });
             });
+
 			const lazyloadRunObserver = () => {
 				const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
 				const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
@@ -2498,7 +2503,7 @@
 		<link rel='stylesheet' id='e-animations-css'
 			href='public/wp-content/plugins/elementor/assets/lib/animations/animations.min93d8.css?ver=3.23.1' media='all' />
 		<link rel='stylesheet' id='flatpickr-css'
-            href='public/wp-content/plugins/metform/public/assets/css/flatpickr.min6f61.css?ver=3.8.9' media='all' />
+			href='public/wp-content/plugins/metform/public/assets/css/flatpickr.min6f61.css?ver=3.8.9' media='all' />
 		<link rel='stylesheet' id='rs-plugin-settings-css'
 			href='public/wp-content/plugins/revslider/public/assets/css/rs6b52a.css?ver=6.6.15' media='all' />
 		<style id='rs-plugin-settings-inline-css'>
@@ -2506,7 +2511,7 @@
 		</style>
 		<script src="public/wp-content/plugins/contact-form-7/includes/swv/js/indexa950.js?ver=5.9.6" id="swv-js"></script>
 		<script id="contact-form-7-js-extra">
-			var wpcf7 = { "api": { "root": ".\/wp-json\/", "namespace": "contact-form-7\/v1" } };
+			var wpcf7 = { "api": { "root": "http:\/\/localhost\/nsansa\/wp-json\/", "namespace": "contact-form-7\/v1" } };
 		</script>
 		<script src="public/wp-content/plugins/contact-form-7/includes/js/indexa950.js?ver=5.9.6"
 			id="contact-form-7-js"></script>
@@ -2517,7 +2522,7 @@
 		<script src="public/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min457f.js?ver=9.1.2"
 			id="sourcebuster-js-js"></script>
 		<script id="wc-order-attribution-js-extra">
-			var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "base64": false, "ajaxurl": ".\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "utm_source_platform": "current.plt", "utm_creative_format": "current.fmt", "utm_marketing_tactic": "current.tct", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
+			var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "base64": false, "ajaxurl": "http:\/\/localhost\/nsansa\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "utm_source_platform": "current.plt", "utm_creative_format": "current.fmt", "utm_marketing_tactic": "current.tct", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
 		</script>
 		<script src="public/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min457f.js?ver=9.1.2"
 			id="wc-order-attribution-js"></script>
@@ -2532,7 +2537,7 @@
 		<script src="public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2"
 			id="elementor-waypoints-js"></script>
 		<script id="elementor-frontend-js-before">
-			var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.23.1", "is_static": false, "experimentalFeatures": { "e_optimized_css_loading": true, "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "container_grid": true, "e_swiper_latest": true, "e_nested_atomic_repeaters": true, "e_optimized_control_loading": true, "e_onboarding": true, "theme_builder_v2": true, "hello-theme-header-footer": true, "home_screen": true, "editor_v2": true, "ai-layout": true, "e_lazyload": true, "e_element_cache": true, "link-in-bio": true, "floating-buttons": true, "display-conditions": true, "form-submissions": true, "taxonomy-filter": true, "search": true }, "urls": { "assets": ".\/public\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": ".\/wp-admin\/admin-ajax.php" }, "nonces": { "floatingButtonsClickTracking": "77bcb6b48c" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "body_background_background": "classic", "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description", "woocommerce_notices_elements": [], "hello_header_logo_type": "title", "hello_header_menu_layout": "horizontal", "hello_footer_logo_type": "logo" }, "post": { "id": 7, "title": "nsansa", "excerpt": "", "featuredImage": false } };
+			var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.23.1", "is_static": false, "experimentalFeatures": { "e_optimized_css_loading": true, "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "container_grid": true, "e_swiper_latest": true, "e_nested_atomic_repeaters": true, "e_optimized_control_loading": true, "e_onboarding": true, "theme_builder_v2": true, "hello-theme-header-footer": true, "home_screen": true, "editor_v2": true, "ai-layout": true, "e_lazyload": true, "e_element_cache": true, "link-in-bio": true, "floating-buttons": true, "display-conditions": true, "form-submissions": true, "taxonomy-filter": true, "search": true }, "urls": { "assets": "http:\/\/localhost\/nsansa\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "http:\/\/localhost\/nsansa\/wp-admin\/admin-ajax.php" }, "nonces": { "floatingButtonsClickTracking": "77bcb6b48c" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "body_background_background": "classic", "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description", "woocommerce_notices_elements": [], "hello_header_logo_type": "title", "hello_header_menu_layout": "horizontal", "hello_footer_logo_type": "logo" }, "post": { "id": 7, "title": "nsansa", "excerpt": "", "featuredImage": false } };
 		</script>
 		<script src="public/wp-content/plugins/elementor/assets/js/frontend.min93d8.js?ver=3.23.1"
 			id="elementor-frontend-js"></script>
@@ -2553,7 +2558,7 @@
 			wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
 		</script>
 		<script id="elementor-pro-frontend-js-before">
-			var ElementorProFrontendConfig = { "ajaxurl": ".\/wp-admin\/admin-ajax.php", "nonce": "8c49147852", "urls": { "assets": ".\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": ".\/wp-json\/" }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" }, "x-twitter": { "title": "X" }, "threads": { "title": "Threads" } }, "woocommerce": { "menu_cart": { "cart_page_url": ".\/cart\/", "checkout_page_url": ".\/checkout\/", "fragments_nonce": "b33a71aaca" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": ".\/public\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
+			var ElementorProFrontendConfig = { "ajaxurl": "http:\/\/localhost\/nsansa\/wp-admin\/admin-ajax.php", "nonce": "8c49147852", "urls": { "assets": "http:\/\/localhost\/nsansa\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "http:\/\/localhost\/nsansa\/wp-json\/" }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" }, "x-twitter": { "title": "X" }, "threads": { "title": "Threads" } }, "woocommerce": { "menu_cart": { "cart_page_url": "http:\/\/localhost\/nsansa\/cart\/", "checkout_page_url": "http:\/\/localhost\/nsansa\/checkout\/", "fragments_nonce": "b33a71aaca" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "http:\/\/localhost\/nsansa\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
 		</script>
 		<script src="public/wp-content/plugins/elementor-pro/assets/js/frontend.mina2f3.js?ver=3.23.0"
 			id="elementor-pro-frontend-js"></script>
@@ -2562,4 +2567,7 @@
 
 </body>
 
+<!-- Mirrored from localhost/nsansa/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jul 2024 10:19:41 GMT -->
+
 </html>
+
