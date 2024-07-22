@@ -628,7 +628,7 @@
 									data-id="b73126d" data-element_type="widget" data-widget_type="button.default">
 									<div class="elementor-widget-container">
 										<div class="elementor-button-wrapper">
-											<a class="elementor-button elementor-size-sm" role="button">
+											<a href="{{ route('welcome') }}" class="elementor-button elementor-size-sm" role="button">
 												<span class="elementor-button-content-wrapper">
 													<span class="elementor-button-text">Go Back</span>
 												</span>
